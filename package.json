@@ -1,0 +1,19 @@
+{
+  "name": "met-api",
+  "version": "0.0.0",
+  "description": "Met Office weather observations API",
+  "main": "lib/index.coffee",
+  "scripts": {
+    "test": "mocha -R landing test/met-api-test.coffee"
+  },
+  "devDependencies": {
+    "should": ">= 0.0.0"
+  },
+  "repository": "",
+  "keywords": [
+    "weather",
+    "api"
+  ],
+  "author": "leesus",
+  "license": "BSD"
+}
